@@ -1,0 +1,18 @@
+# Installation inputs, not a tested lockfile. Target Python: 3.11.
+# Resolve in the cloud environment, run smoke checks, then record exact versions.
+torch
+transformers>=4,<5
+gensim
+scikit-learn
+nltk
+pandas
+numpy
+scipy
+matplotlib
+pyyaml
+nbformat
+nbconvert
+ipykernel
+emoji
+ftfy
+rapidfuzz

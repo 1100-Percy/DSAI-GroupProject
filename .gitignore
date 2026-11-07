@@ -1,0 +1,16 @@
+# Local and generated environment files
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.cache/
+.nltk_data/
+# Credentials
+.env
+.env.*
+!.env.example
+# Downloaded model resources
+models/
+gensim-data/

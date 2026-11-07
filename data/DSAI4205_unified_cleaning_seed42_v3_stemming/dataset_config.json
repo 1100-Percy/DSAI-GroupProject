@@ -1,0 +1,129 @@
+{
+  "dataset_version": "DSAI4205_unified_cleaning_seed42_v3_stemming",
+  "rules_version": "unified_course_v3_lemma_snowball",
+  "train_rows": 563,
+  "test_rows": 397,
+  "seed": 42,
+  "n_splits": 5,
+  "splitter": "StratifiedGroupKFold",
+  "shuffle": true,
+  "common_model_input": "root train.csv/test.csv Phrase; no alternate encoder input",
+  "lowercase": true,
+  "punctuation_removal": "ASCII string.punctuation plus Unicode category P to boundaries",
+  "lemmatization": "NLTK POS-aware WordNet; mentions/domains/protected words exempt",
+  "stemming": {
+    "algorithm": "nltk.stem.SnowballStemmer(english, ignore_stopwords=False)",
+    "order": "after lemmatization",
+    "eligible": "ASCII alphabetic words of length >=3",
+    "exceptions": "mention/domain tokens; existing protected pronouns, negation and markers",
+    "stopwords_removed": false
+  },
+  "stopword_removal": false,
+  "mention_policy": "retain handle words; split underscores; no identity replacement",
+  "url_policy": "url marker and hostname words; discard path/query/opaque IDs",
+  "unknown_characters": "retain U+FFFD; never guess or replace with CORRUPT",
+  "external_text_recovery": false,
+  "external_labels_used": false,
+  "external_entity_used": false,
+  "external_provenance_used_for_membership": true,
+  "source_hashes": {
+    "traindata.csv": "4c10ced209eb395401e3915a74a47c5135c805248960114fdeaed7f6dd9c2be9",
+    "testdata.csv": "7c6912c3d9ad4c310637dbb31c1441ea0febf809ef13f54fb1a704ec792734b0"
+  },
+  "external_provenance_source_hashes": {
+    "twitter_training.csv": "68ebaee4f44bda5de49b96b5e5630184f1af894970b994aa6bb0aa5e1dbfe9a0",
+    "twitter_validation.csv": "a830fac967603dbacad892bea6dd1961dedebdf230329031b6159f910e826a82"
+  },
+  "nltk_resource_hashes": {
+    ".nltk_data/corpora/wordnet.zip": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+    ".nltk_data/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.classes.json": "d152ffa69d45b8357276341a3d592c6c025911d52ec0d9068d4f382560dd48b6",
+    ".nltk_data/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.tagdict.json": "4c713731cb06727736962bc8cd94ad919217a040e76691059af99bc0c2c9c246",
+    ".nltk_data/taggers/averaged_perceptron_tagger_eng/averaged_perceptron_tagger_eng.weights.json": "789e8e35f6fac656d9b7eccea29ba4e8a137cbb5b525dd31f39e4291a9e80832"
+  },
+  "dependencies": {
+    "pandas": "3.1.0",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "nltk": "3.10.4",
+    "ftfy": "6.3.1",
+    "emoji": "2.16.0",
+    "rapidfuzz": "3.14.3"
+  },
+  "labels": {
+    "0": "Negative",
+    "1": "Positive",
+    "2": "Irrelevant",
+    "3": "Neutral"
+  },
+  "exclusions": {
+    "confirmed_source_group_in_official_test": 27,
+    "conflicting_canonical_training_labels": 5,
+    "exact_canonical_train_test_overlap": 1
+  },
+  "confirmed_cross_split_source_groups_before_exclusion": 27,
+  "remaining_replacement_rows": {
+    "train": 44,
+    "test": 31
+  },
+  "model_input_replacement_rows": {
+    "train": 34,
+    "test": 20
+  },
+  "unresolved_provenance_rows": {
+    "test": 5,
+    "train": 10
+  },
+  "near_pair_review_counts": {
+    "confirmed_same_source": 40,
+    "different_source_template_or_related_post": 10,
+    "confirmed_canonical_overlap": 1
+  },
+  "retained_provenance_status": {
+    "train": {
+      "unique": 559,
+      "unmatched": 2,
+      "ambiguous": 2
+    },
+    "test": {
+      "unique": 392,
+      "unmatched": 4,
+      "ambiguous": 1
+    }
+  },
+  "retained_multirow_training_groups": 13,
+  "url_audit_offset_reference": "NFKC view of repaired_text before model lowercasing",
+  "token_audit_counts_all_original_rows": {
+    "urls": 264,
+    "mentions": 446,
+    "lemma_changes": 2472,
+    "suspicious_urls": 8,
+    "stem_changes": 2723
+  },
+  "historical_results_apply": false,
+  "model_training_performed": false,
+  "parent_dataset_version": "DSAI4205_unified_cleaning_seed42_v2",
+  "parent_manifest_sha256": "9482694da161d9e09a695fd9a5350e1cb44a8806bb28a156a462903dc593a834",
+  "morphology_pipeline": [
+    "WordNet POS lemmatization",
+    "Snowball English stemming"
+  ],
+  "parent_membership_labels_order_groups_and_folds_unchanged": true,
+  "stemming_summary": [
+    {
+      "split": "train",
+      "rows": 563,
+      "changed_rows": 491,
+      "changed_token_occurrences": 1571,
+      "word_token_count_before": 12119,
+      "word_token_count_after": 12119
+    },
+    {
+      "split": "test",
+      "rows": 397,
+      "changed_rows": 341,
+      "changed_token_occurrences": 1068,
+      "word_token_count_before": 8505,
+      "word_token_count_after": 8505
+    }
+  ]
+}

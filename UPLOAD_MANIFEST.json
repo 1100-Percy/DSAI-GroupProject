@@ -1,0 +1,104 @@
+{
+  "purpose": "Stage 1 cloud preparation inputs; experiments not run",
+  "dataset_subset_original_hashes_verified": true,
+  "training_rows": 563,
+  "fold_rows": 563,
+  "multirow_groups": 13,
+  "forbidden_member_contents_inspected": false,
+  "excluded_by_user": [
+    "references/DSAI4205_Integrated_Interim_Report_final.docx",
+    "references/DSAI4205_Interim_Report.pdf"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 216,
+      "sha256": "c8caef285d1bfd80c929cb50172d297bbdd4d79ef68e2d5cacf570631b9eabc6",
+      "git_blob_sha1": "99d05b3b5af10aa84b2cf9b4aa07af276b64f7db"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 2500,
+      "sha256": "6afa5a2514193b6f2ddcdc90d70ad10c466c6c372e99031ce8634a528d39d488",
+      "git_blob_sha1": "9490d6a160bbc488c03dbee24fc843af3213611d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 2232,
+      "sha256": "1fa8c2dcd71ece530f7e547a06b675480bb28911ef062c76a12ad1616c28a2a5",
+      "git_blob_sha1": "013f0c7cdd7c74c574a9ba76d4f60b52686176c3"
+    },
+    {
+      "path": "STAGE1_TASK.md",
+      "size_bytes": 17469,
+      "sha256": "0da8b69a9197754256d48d7d91aa844eb8bb51cac758f418376b651138558f72",
+      "git_blob_sha1": "14e6ec9f800248d4de73fdde6e3437739993399d"
+    },
+    {
+      "path": "data/DSAI4205_unified_cleaning_seed42_v3_stemming/README.md",
+      "size_bytes": 1462,
+      "sha256": "25476f994f639c38b33678c837d39767b07e3e34d32596038fad9e94531d2940",
+      "git_blob_sha1": "abaf69de5ea5a930d365a98ea48edac663cb5b58"
+    },
+    {
+      "path": "data/DSAI4205_unified_cleaning_seed42_v3_stemming/SHA256SUMS.json",
+      "size_bytes": 5060,
+      "sha256": "8a8d0e98256ab0b2dd1f372f20d8b27ed2d0ed4f38a3ecb8e406d4eebc586b3f",
+      "git_blob_sha1": "e632acdbce407ea2636e5393b02f667291e22145"
+    },
+    {
+      "path": "data/DSAI4205_unified_cleaning_seed42_v3_stemming/code/unified_data.py",
+      "size_bytes": 13005,
+      "sha256": "2707d784b05a26453c4466c2f5b0ae2d47b6134f492806dbd5c570bcf817b753",
+      "git_blob_sha1": "53f9659b0e35e91c9cfd979520c3341aff8fa9be"
+    },
+    {
+      "path": "data/DSAI4205_unified_cleaning_seed42_v3_stemming/dataset_config.json",
+      "size_bytes": 4727,
+      "sha256": "68842c4db957f448d2f96e9f116e55cb85cc889879dfe22c85fa1ae67fb4eff8",
+      "git_blob_sha1": "b0c46cb12f6a09df632c607ef9f746ce5bf22b50"
+    },
+    {
+      "path": "data/DSAI4205_unified_cleaning_seed42_v3_stemming/fold_assignments.csv",
+      "size_bytes": 20780,
+      "sha256": "f2e4c1e3614c28509233f131fc9cbc007e7ab218f5d55e89dfc52d471be7267b",
+      "git_blob_sha1": "c34c7518dfd858f79fa819deacb0a0dbebfd60a3"
+    },
+    {
+      "path": "data/DSAI4205_unified_cleaning_seed42_v3_stemming/train.csv",
+      "size_bytes": 61395,
+      "sha256": "f54d4a33a088f8bb24ddbf821b57658b7b1788dc42266c336c42e4e1430752e2",
+      "git_blob_sha1": "0c43b9af3486f1fa82dfa443c73da2c561431ea1"
+    },
+    {
+      "path": "data/archives/DSAI4205_frozen_v3_cleaned_dataset_5fold_20261103_211820.zip",
+      "size_bytes": 764811,
+      "sha256": "df8f8e216dc1dbedf3a9ffee7c22ad7c4200f2acc1e58d1a047e382963562807",
+      "git_blob_sha1": "2a0d2ada750ce955128560ee3db36b2a9d5da2a4"
+    },
+    {
+      "path": "docs/CLOUD_SETUP.md",
+      "size_bytes": 3055,
+      "sha256": "2e425135d7e887b804d77f147b202edb7d55fb36f3e73dd744fee6a22cb2d6d3",
+      "git_blob_sha1": "b30b070748648f1e49351fc00a82625b9930b7c1"
+    },
+    {
+      "path": "references/Project description.pdf",
+      "size_bytes": 135589,
+      "sha256": "d1695d61be470f46d4834bf782175b9a31b010eeb97f572aad8b6990e7b75ae2",
+      "git_blob_sha1": "d7d43acc3102b1c80c33035c893521c354bfc016"
+    },
+    {
+      "path": "reports/stage1/OPEN_QUESTIONS.md",
+      "size_bytes": 2107,
+      "sha256": "753772955f41e3610623a1dbe0fed1fe7a4f9c90599438d6f0340de44e5accf3",
+      "git_blob_sha1": "068e98e72d63972585b6ed3c1ddcaf1638537120"
+    },
+    {
+      "path": "requirements-stage1.txt",
+      "size_bytes": 286,
+      "sha256": "b32df7f0ea449f0208115d61a7f075175d1fdbe2063c090c6a0bd7d9b280c2b4",
+      "git_blob_sha1": "20c0f04a1d66e0e46ce6484f62445c439de5a505"
+    }
+  ]
+}
