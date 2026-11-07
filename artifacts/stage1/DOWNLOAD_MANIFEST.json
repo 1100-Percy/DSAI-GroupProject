@@ -1,0 +1,70 @@
+{
+  "results_zip": {
+    "filename": "stage1_results.zip",
+    "bytes": 3739976,
+    "sha256": "08418ed758f37e07f07d378813c20e895e38998ed0fbf050e8dc3bfe5ba07f5d",
+    "file_count": 84
+  },
+  "complete_zip": {
+    "filename": "stage1_complete.zip",
+    "bytes": 424170562,
+    "sha256": "9cbddcc5f71d658dd188d18295c0daf658418a6d88fa0acdd8ccb65898182b1b",
+    "file_count": 196
+  },
+  "parts": [
+    {
+      "filename": "stage1_complete.zip.part01",
+      "bytes": 50331648,
+      "sha256": "c35b7d67b2d3bc6a0cbe4a5b050c984da6ba57ecb3d522b41923ff71ae5d0028"
+    },
+    {
+      "filename": "stage1_complete.zip.part02",
+      "bytes": 50331648,
+      "sha256": "c24cdd16f7ede1a332bbe00675daba06782f75828451a6e3a582cd58541b232b"
+    },
+    {
+      "filename": "stage1_complete.zip.part03",
+      "bytes": 50331648,
+      "sha256": "a21c39a1d7beaf0435cd67c0ca0315e5a1fde556f43235d3b4dda4a2e6760d25"
+    },
+    {
+      "filename": "stage1_complete.zip.part04",
+      "bytes": 50331648,
+      "sha256": "5d1695872ea330567ea4ae8da0eecf8f68b440ed3dd150d84659b9092c9f790f"
+    },
+    {
+      "filename": "stage1_complete.zip.part05",
+      "bytes": 50331648,
+      "sha256": "9138fa69e5b40dd5e2ed84cceb439751964c385565d697134d291cdb29c1e4e6"
+    },
+    {
+      "filename": "stage1_complete.zip.part06",
+      "bytes": 50331648,
+      "sha256": "ecfdb6f30a5118c381b98af6f92b7938e6fea410c0fce4e0409cee87ef1ce6fe"
+    },
+    {
+      "filename": "stage1_complete.zip.part07",
+      "bytes": 50331648,
+      "sha256": "d0159a46b8fa593b400facfdd5da182f02f08c0e0c92b395ad5f5c0073bcb0d6"
+    },
+    {
+      "filename": "stage1_complete.zip.part08",
+      "bytes": 50331648,
+      "sha256": "832a6ba9116a6177d417736ff032df3cbe3e34868bbfccd51de3e5d0e73aca0d"
+    },
+    {
+      "filename": "stage1_complete.zip.part09",
+      "bytes": 21517378,
+      "sha256": "446b8dee88b20f49f8711a9fe29f4fb400d6ad696c2a9cff265ea1bbc1d56a66"
+    }
+  ],
+  "part_bytes": 50331648,
+  "includes_features": true,
+  "excluded": [
+    "test and audit data",
+    "original dataset ZIP",
+    "model downloads",
+    "virtual environment",
+    "credentials"
+  ]
+}
