@@ -1,0 +1,5 @@
+config_a,config_b,mean_delta,sd_delta,wins_a,wins_b,decision
+w2v,baseline_ref,-0.0558189548565182,0.05216991199744065,3,22,更差
+ft,baseline_ref,-0.04008469415526251,0.054430455577196675,7,18,更差
+glove_stem,baseline_ref,-0.023903940410383875,0.0482846811005044,8,17,无法区分
+bertweet,baseline_ref,0.05511113025499579,0.05484075037767457,20,5,更好

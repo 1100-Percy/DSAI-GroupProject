@@ -1,0 +1,83 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Loading glove-twitter-100 via gensim.downloader
+
+GloVe normalized 100000/1193514
+GloVe normalized 400000/1193514
+GloVe normalized 700000/1193514
+GloVe normalized 800000/1193514
+GloVe normalized 900000/1193514
+GloVe normalized 1000000/1193514
+GloVe normalized 1100000/1193514
+/workspace/DSAI-GroupProject/.venv/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+BERTweet 8/563 on cpu
+BERTweet 16/563 on cpu
+BERTweet 24/563 on cpu
+BERTweet 32/563 on cpu
+BERTweet 40/563 on cpu
+BERTweet 48/563 on cpu
+BERTweet 56/563 on cpu
+BERTweet 64/563 on cpu
+BERTweet 72/563 on cpu
+BERTweet 80/563 on cpu
+BERTweet 88/563 on cpu
+BERTweet 96/563 on cpu
+BERTweet 104/563 on cpu
+BERTweet 112/563 on cpu
+BERTweet 120/563 on cpu
+BERTweet 128/563 on cpu
+BERTweet 136/563 on cpu
+BERTweet 144/563 on cpu
+BERTweet 152/563 on cpu
+BERTweet 160/563 on cpu
+BERTweet 168/563 on cpu
+BERTweet 176/563 on cpu
+BERTweet 184/563 on cpu
+BERTweet 192/563 on cpu
+BERTweet 200/563 on cpu
+BERTweet 208/563 on cpu
+BERTweet 216/563 on cpu
+BERTweet 224/563 on cpu
+BERTweet 232/563 on cpu
+BERTweet 240/563 on cpu
+BERTweet 248/563 on cpu
+BERTweet 256/563 on cpu
+BERTweet 264/563 on cpu
+BERTweet 272/563 on cpu
+BERTweet 280/563 on cpu
+BERTweet 288/563 on cpu
+BERTweet 296/563 on cpu
+BERTweet 304/563 on cpu
+BERTweet 312/563 on cpu
+BERTweet 320/563 on cpu
+BERTweet 328/563 on cpu
+BERTweet 336/563 on cpu
+BERTweet 344/563 on cpu
+BERTweet 352/563 on cpu
+BERTweet 360/563 on cpu
+BERTweet 368/563 on cpu
+BERTweet 376/563 on cpu
+BERTweet 384/563 on cpu
+BERTweet 392/563 on cpu
+BERTweet 400/563 on cpu
+BERTweet 408/563 on cpu
+BERTweet 416/563 on cpu
+BERTweet 424/563 on cpu
+BERTweet 432/563 on cpu
+BERTweet 440/563 on cpu
+BERTweet 448/563 on cpu
+BERTweet 456/563 on cpu
+BERTweet 464/563 on cpu
+BERTweet 472/563 on cpu
+BERTweet 480/563 on cpu
+BERTweet 488/563 on cpu
+BERTweet 496/563 on cpu
+BERTweet 504/563 on cpu
+BERTweet 512/563 on cpu
+BERTweet 520/563 on cpu
+BERTweet 528/563 on cpu
+BERTweet 536/563 on cpu
+BERTweet 544/563 on cpu
+BERTweet 552/563 on cpu
+BERTweet 560/563 on cpu
+BERTweet 563/563 on cpu

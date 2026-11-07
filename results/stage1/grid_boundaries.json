@@ -1,0 +1,9 @@
+{
+  "baseline_ref": 9,
+  "bertweet": 10,
+  "bertweet_pca100": 6,
+  "ft": 14,
+  "glove_direct": 10,
+  "glove_stem": 6,
+  "w2v": 7
+}

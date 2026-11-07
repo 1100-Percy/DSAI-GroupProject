@@ -1,0 +1,75 @@
+{
+  "status": "passed_in_allowed_scope",
+  "rows": 563,
+  "configs": 7,
+  "outer_folds_per_config": 25,
+  "fold_score_rows": 175,
+  "tuning_rows": 1575,
+  "tests_passed": 10,
+  "phrase_sha256": "cf310a52ccabd1b9bdcd74a77c98da218284dbd3b802becab87f5bbcc4e4f780",
+  "verified_input_files": 5,
+  "unverified_manifest_entries": 47,
+  "dataset_and_original_task_git_diff": "empty",
+  "score_rerun_byte_identical": true,
+  "bertweet_extraction_rerun_identical": true,
+  "bertweet_frozen": true,
+  "notebook_recompute": false,
+  "notebook_without_stage1_directory_passed": true,
+  "images": [
+    {
+      "name": "F1_macro_f1.png",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        2758,
+        1471
+      ]
+    },
+    {
+      "name": "F2_class_f1.png",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        2257,
+        1349
+      ]
+    },
+    {
+      "name": "F3_coverage.png",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        3870,
+        1190
+      ]
+    },
+    {
+      "name": "F4_tsne.png",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        2384,
+        2148
+      ]
+    },
+    {
+      "name": "F5_pairwise_delta.png",
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "pixels": [
+        2723,
+        2298
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-# Installation inputs, not a tested lockfile. Target Python: 3.11.
-# Resolve in the cloud environment, run smoke checks, then record exact versions.
+# Installation inputs, not a lockfile. Validated on Python 3.12.
+# Exact runtime versions are recorded in results/stage1/env_*.txt.
 torch
-transformers>=4,<5
+transformers==4.44.2
 gensim
 scikit-learn
 nltk
