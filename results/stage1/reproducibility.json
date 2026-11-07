@@ -1,0 +1,8 @@
+{
+  "first_sha256": "954d25a0d2d860c217e6cb3ce1db106512815787091f12fe3b88ac22879fdfcb",
+  "second_sha256": "954d25a0d2d860c217e6cb3ce1db106512815787091f12fe3b88ac22879fdfcb",
+  "byte_identical": true,
+  "fresh_word_models_each_run": true,
+  "fresh_nested_fits_each_run": true,
+  "pretrained_features": "cached frozen extraction"
+}

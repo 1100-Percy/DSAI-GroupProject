@@ -1,0 +1,14 @@
+{
+  "stage1_directory_present": false,
+  "recompute": false,
+  "executed_code_cells": 11,
+  "errors": 0,
+  "runtime_inputs": [
+    "data",
+    "features",
+    "results",
+    "figures",
+    "reports",
+    "STAGE1_TASK.md"
+  ]
+}

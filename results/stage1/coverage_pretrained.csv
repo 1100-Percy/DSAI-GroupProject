@@ -1,0 +1,4 @@
+embedding,repeat,fold,token_count,type_count,unseen_token_rate,unseen_type_rate,oov_token_rate,oov_type_rate,zero_rows,subwords_per_word,split_word_rate,unk_tokens,unk_rows,truncated_rows
+glove_direct,-1,-1,12119.0,2690.0,0.0799570921693209,0.18698884758364312,0.0799570921693209,0.18698884758364312,0,,,,,
+glove_stem,-1,-1,12119.0,2690.0,0.04835382457298457,0.12676579925650558,0.04835382457298457,0.12676579925650558,0,,,,,
+bertweet,-1,-1,,,,,,,0,1.2104959155045796,0.15545837115273536,7.0,7.0,0.0

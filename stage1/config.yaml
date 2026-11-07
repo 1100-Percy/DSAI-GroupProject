@@ -1,0 +1,25 @@
+data_dir: data/DSAI4205_unified_cleaning_seed42_v3_stemming
+seed: 42
+configs: [w2v, ft, glove_stem, glove_direct, bertweet, bertweet_pca100, baseline_ref]
+C_grid: [0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1, 3, 10]
+repeats: [0, 1, 2, 3, 4]
+outer_splits: 5
+inner_splits: 3
+tie_tolerance: 0.001
+word_vectors:
+  vector_size: 100
+  window: 5
+  min_count: 1
+  sg: 1
+  negative: 5
+  epochs: 50
+  workers: 1
+  seed: 42
+fasttext: {min_n: 3, max_n: 6}
+glove: glove-twitter-100
+bertweet:
+  checkpoint: vinai/bertweet-base
+  max_length: 128
+  batch_size: 8
+  normalization: false
+  pca_components: 100

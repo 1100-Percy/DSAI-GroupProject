@@ -14,3 +14,6 @@ venv/
 # Downloaded model resources
 models/
 gensim-data/
+# Experiment caches are distributed in the checksummed Stage 1 bundle.
+features/stage1/
+stage1_download/
